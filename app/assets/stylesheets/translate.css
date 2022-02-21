@@ -1,0 +1,33 @@
+.translate-word {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkwAIYYWJr1679HxwcDOaDCZAATBIkgVslurEAdDoMBsNekvMAAAAASUVORK5CYII=) repeat-x 0 100%;
+    padding: 0 0 4px;
+    position: relative;
+    cursor: default;
+    display: inline;
+    margin: 2px;
+}
+.translate-div-container {
+    display: none;
+    left: 50%;
+    position: absolute;
+    top: calc(100% + 15px);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 150;
+}
+.translate-div-content {
+    color: #3c3c3c;
+    font-weight: 500;
+    white-space: nowrap;
+    background: #fff;
+    position: relative;
+    border: 2px solid #e5e5e5;
+    border-radius: 16px;
+    width: 50px;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+}
+.translate-word:hover .translate-div-container {
+    display: block;
+}

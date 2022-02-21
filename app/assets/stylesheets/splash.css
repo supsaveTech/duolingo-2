@@ -1,0 +1,267 @@
+.logged-out-nav {
+    /* background: linear-gradient(180deg,#0b3e71,rgba(11,65,118,.5));
+    background-color: rgba(11,65,118,.8); */
+    background-color: #235390;
+    background-repeat: repeat-x;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.duoLogo {
+    float: left;
+    margin-top: 18px;
+    width: 158px;
+    background-position: -144px 0;
+    height: 35.9px;
+    width: 142px;
+    background-size: 900px;
+    background-image: url(//d35aaqx5ub95lt.cloudfront.net/images/icon-sprite8.svg);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logged-out-nav-container {
+    margin: 0 auto;
+    max-width: 60%; /* 79*/
+    min-height: 70px;
+    padding: 0 40px;
+}
+
+.langlogin {
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    margin-top: 5px;
+}
+
+.langlogin-container {
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.site-lang {
+    cursor: pointer;
+    font-family: din-round,sans-serif!important;
+    padding: 20px;
+    position: relative;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    float: right;
+}
+.site-lang-language{
+    margin-left: 5px;
+}
+.login-button-div{
+    position: relative;
+    text-align: center;
+}
+
+.login-button{
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    /* border-width: 1px; */
+    /* padding: 1px 7px 2px; */
+    border-width: 0 0 4px;
+    /* border-top-left-radius: 18px; */
+    border-radius: 18px;
+    padding: 13px 16px;
+    cursor: pointer;
+
+    color: #0b3e71!important;
+    font-size: 12px; 
+    font-weight: 700; 
+     letter-spacing: .8px; 
+    text-transform: uppercase;
+}
+
+.body-container{
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 12px auto;
+    padding: 40px;
+    text-align: center;
+    /* margin-top: 70px; to counteract position fixed; 70px is height of nav bar */
+    width: 60%;
+}
+.globe {
+    background: url(//d35aaqx5ub95lt.cloudfront.net/images/earth-two-rings.svg);
+    background-size: 360px;
+    height: 360px;
+    min-width: 360px;
+    width: 360px;
+}
+.slogan-text-box{
+    margin: auto 48px;
+    width: 60%;
+}
+.slogan-text {
+    margin-bottom: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 50px;
+}
+
+.logged-out-container {
+    display: flex;
+    background-color: #235390;
+    background-image: url(//d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    /* height: calc(100vh - 70px); */
+    position: relative;
+
+    z-index: 1;
+}
+
+.get-started-button{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 24px;
+    background-color: #7AC70C;
+    color: #fff;
+    border-width: 0 0 4px;
+    border-color: #58a700;
+    border-radius: 16px;
+    border-style: solid;
+    cursor: pointer;
+    min-width: 150px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+}
+.get-started-button:hover{
+    background-color: #8EE000;
+}
+.footer-nav{
+    background: rgba(0,0,0,.25);
+    display: -ms-flexbox;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.flag-carousel {
+    margin: 15px auto;
+    max-width: 840px;
+    position: relative;
+    white-space: nowrap;
+}
+.flag-carousel-list {
+    margin-top: 5px;
+    padding-left: 0px;
+    overflow: hidden;
+    width: 840px;
+}
+.flag-carousel-list li {
+    display: inline-block;
+    min-width: 120px;
+}
+.flag-carousel-list li a {
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.flag-carousel-list-flag {
+    margin-right: 10px;
+}
+.flag-carousel-list-text {
+    color: #fff;
+    font-size: 14px;
+}
+
+.flag-size {
+    background-size: 40px;
+    display: inline-block;
+    height: 32.19512px;
+    width: 40px;
+    background-image: url(//d35aaqx5ub95lt.cloudfront.net/images/juicy-flag-sprite-4.svg);
+}
+
+.spanish-flag-footer{    background-position: 0 -32.19512px;}
+.french-flag-footer{    background-position: 0 -64.39024px;}
+.german-flag-footer {    background-position: 0 -96.58537px;}
+.italian-flag-footer { background-position: 0 -160.97561px;}
+.portuguese-flag-footer {     background-position: 0 -289.7561px; }
+.dutch-flag-footer {    background-position: 0 -354.14634px; }
+.czech-flag-footer {     background-position: 0 -901.46341px;}
+
+/* @media (max-width: 1065px)
+._1nFPH {
+    min-height: calc(100vh - 50px);
+    padding: 48px 0;
+} */
+
+@media (max-width: 1065px) {
+    .body-container {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 24px 12px;
+        width: 100%;
+    }
+    .globe {
+        background-size: 192px;
+        height: 192px;
+        min-width: 192px;
+        width: 192px;
+    }
+    .footer-nav {
+        display: none
+    }
+    .site-lang {
+        display: none;
+    }
+    .login-button-div {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+
+    .globe {
+        display: none;
+    }
+    .slogan-text-box {
+        margin-top: 7%;
+        margin: auto;
+    }
+    .footer-nav {
+        display: none;
+    }
+}
+/* @media (min-width: 700px)
+*, :after, :before {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+} */
+
+@media (max-width: 1150px) {
+    .body-container{
+        width: 79%
+    }
+    .logged-out-nav-container {
+        width: 75%;
+        max-width: 75%;
+        padding: 0px 20px;
+    }
+
+}

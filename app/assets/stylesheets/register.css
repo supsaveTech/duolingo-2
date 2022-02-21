@@ -1,0 +1,93 @@
+.register-outer-container{
+    padding: 48px 0;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+.register-inner-container {
+    margin: 0 auto;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 12px auto;
+    padding: 40px;
+    text-align: center;
+    font-family: din-round,sans-serif!important;
+    outline: none!important;
+    -webkit-tap-highlight-color: transparent;
+}
+.register-inner-box{
+    /* margin-top: 50px; */
+}
+.register-header {
+    color: #fff;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 50px;
+    font-weight: 700;
+}
+.choose-language-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1065px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.choose-language-item-div{
+    -ms-flex-align: center;
+    align-items: center;
+    border: 2px solid hsla(0,0%,93%,.25);
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 225px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 10px;
+    width: 205px;
+}
+.choose-language-item-div:hover {
+    background: hsla(0,0%,100%,.15);
+    border: 2px solid hsla(0,0%,100%,.5);
+}
+.flag-icon-container{
+    height: 100px;
+    margin: 0 auto 20px;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    width: 100px;
+}
+.flag-icon-span{
+    -ms-transform: scale(3.33);
+    transform: scale(3.33);
+    -ms-transform-origin: top;
+    transform-origin: top;
+    background-size: 40px;
+    display: inline-block;
+    height: 32.19512px;
+    width: 40px;
+    background-image: url(//d35aaqx5ub95lt.cloudfront.net/images/juicy-flag-sprite-4.svg);
+}
+.flag-icon-language-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.flag-icon-language-stats{
+    font-size: 14px;
+}
+.spanish-span{ background-position: 0 -32.19512px;}
+.french-span{ background-position: 0 -64.39024px;}
+.german-span{ background-position: 0 -96.58537px;}
+.japanese-span {     background-position: 0 -128.78049px;}
